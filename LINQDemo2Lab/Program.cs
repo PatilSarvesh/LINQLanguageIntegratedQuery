@@ -13,8 +13,9 @@ namespace LINQDemo2Lab
                 Console.WriteLine(a[i]);
             }
 
-            List<Product> products = ProductsDB.GetProducts();
+              List<Product> products = ProductsDB.GetProducts();
 
+            
             
            
 
@@ -177,7 +178,7 @@ namespace LINQDemo2Lab
 
             //11. Save all products into XML document	
 
-            XmlDocument xmld = new XmlDocument();
+            XmlDocument xmld = new XmlDocument(); //pending
 
         }
 
